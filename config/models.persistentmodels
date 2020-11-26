@@ -1,0 +1,27 @@
+Produto
+    nome Text
+    valor Double
+    deriving Show
+
+Compra
+    produtoid ProdutoId
+    usuarioid UsuarioId
+    qtunit Int
+    deriving Show
+
+Usuario
+    email Text
+    senha Text
+    UniqueEmail email
+    deriving Show
+
+Tarefa
+    usuarioid UsuarioId
+    nome Text
+    descricao Text
+    deriving Show
+
+Categoria
+    nome Text
+    descricao Text
+    deriving Show
